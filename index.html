@@ -248,7 +248,7 @@ async function handleGenerate() {
   document.getElementById('icon-spin').classList.remove('hidden');
   document.getElementById('btn-label').textContent = 'Generating...';
   try {
-    const res = await fetch('/.netlify/functions/generate', {
+    const res = await fetch('/api/generate', {
       method: 'POST',
       headers: {'Content-Type':'application/json'}
     });
