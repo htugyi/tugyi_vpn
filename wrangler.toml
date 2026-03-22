@@ -1,6 +1,4 @@
-# wrangler.toml
 name = "tugyi-vpn"
-pages_build_output_dir = "/"
 
 [env.production]
 pages_functions_dir = "functions"
