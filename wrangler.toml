@@ -1,5 +1,8 @@
-name = "tugyi-vpn"
-pages_build_output_dir = "/"
+[build]
+command = ""
 
-[env.production]
-pages_functions_dir = "functions"
+[build.environment]
+NODE_VERSION = "18"
+
+[functions]
+directory = "functions"
